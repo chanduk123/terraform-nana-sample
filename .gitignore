@@ -1,0 +1,9 @@
+# local terraform not required
+.terraform/*
+terraform.exe
+#variables may be diff for and may contain senstive data
+*.tfvars
+
+#state file is not required to be in git
+*tfstate
+*tfstate.*
